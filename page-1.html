@@ -14,9 +14,27 @@
   function setup(){
     var w = windowWidth-10, h = 380;
     var canvas = createCanvas(w,h);
+      noStroke();
+      smooth();
+      
   }
   function draw(){
-    background(225);
+    background(100);
+      
+    fill(90,46,182);
+    ellipse (320,200,40,40);
+    textAlign(CENTER);
+    text("Esto");
+    
+      
+    fill(90,116,182);
+    ellipse (480,200,40,40);
+      
+    fill(90,171,182);
+    ellipse (680,200,80,80);
+      
+    fill(255,0,255);
+    ellipse(mouseX,mouseY,16,16);
   }    
   </script>
   </body>

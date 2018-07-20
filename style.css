@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
 html, body {
   width: 100%;
   height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9em;
+    
 }
 
 #mainNav {
@@ -87,12 +93,13 @@ header {
   width: 100%;
   height:100vh;
   color: white;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%), url("img/bg-header.jpg");
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%), url("img/sorry3.jpg");
   background-size:cover;
   background-position: center center;
 }
 
 header .col{
+  font-family: 'Yanone Kaffeesatz', sans-serif, 'Gloria Hallelujah', cursive;
   padding-top:300px;
 }
 
@@ -120,4 +127,16 @@ iframe{
 width:100%;
 height:400px;
 overflow:hidden;
+}
+
+header h1{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 5rem;
+    text-shadow: 0 0 9px rgba(0,0,0.9);
+}
+
+header h2{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 3rem;
+    word-spacing: 1.2rem;
 }
